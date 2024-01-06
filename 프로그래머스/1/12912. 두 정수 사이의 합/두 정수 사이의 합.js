@@ -2,8 +2,7 @@ function solution(a, b) {
     var answer = 0;
     if (a === b) {
         answer = a;
-    }
-    if (a < b) {
+    } else if (a < b) {
         for (let i = a; i <= b; i++) {
            answer += i; 
         }
